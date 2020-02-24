@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:900|Montserrat:00|Titillium+Web:900|Work+Sans:900&display=swap');
 body {
   background: url("https://i.pinimg.com/originals/04/e7/46/04e746345c248480717fc6e35b01e321.jpg");
   background-position: 30% 40%;
@@ -7,7 +8,6 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-
 }
 .App {
   text-align: center;
@@ -24,18 +24,26 @@ body {
   background-size: 100%;
   background-position: center;
   color: white;
-  font-family: helvetica;
-  width: 60vw;
+  font-family: 'Montserrat';
+
+  /* font-family: helvetica; */
+  width: 70vw;
   height: 80vh;
 }
 h1 {
-font-family: 'Exo 2', sans-serif;
+/* font-family: 'Exo 2', sans-serif; */
+font-family: 'Montserrat';
 margin: 0 auto;
 padding-top: 4vw;
+font-weight: 300;
+font-size: 10vw;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 8vw;
   margin-bottom: 0;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-family: 'Exo';
 }
 
 
