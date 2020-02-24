@@ -36,14 +36,24 @@ font-family: 'Montserrat';
 margin: 0 auto;
 padding-top: 4vw;
 font-weight: 300;
-font-size: 10vw;
+font-size: 8vw;
+line-height: 8.3vw;
 }
 h2 {
   font-size: 8vw;
   margin-bottom: 0;
+  margin-top: 2vh;
   letter-spacing: -1px;
   font-weight: bold;
   font-family: 'Exo';
 }
-
-
+.sub-button {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+  margin: 5px auto;
+  
+}

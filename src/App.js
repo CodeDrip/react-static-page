@@ -6,11 +6,20 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>ENTER</h1>
-        <h1>TO WIN</h1>
-        <h2>CALI OR BUST</h2>
-        <h2>SWEEPSTAKES</h2>
+        <h1>ENTER<br></br>TO WIN</h1>
+        <h2>CALI OR BUST<br></br>SWEEPSTAKES</h2>
         <p>7 day get away </p>
+        <form>
+          First name:<br></br>
+          <input type="text" name="firstname"></input><br></br>
+          Last name:<br></br>
+          <input type="text" name="lastname"></input><br></br>
+          Email:<br></br>
+          <input type="email"></input>
+          
+        </form>
+        {/* <button>SUBMIT</button> */}
+        <button content="Sample Button" className="sub-button">SUBMIT</button>
       </div>
     </div>
   )
