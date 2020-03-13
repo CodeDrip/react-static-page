@@ -25,19 +25,20 @@ body {
   background-position: center;
   color: white;
   font-family: 'Montserrat';
-
-  /* font-family: helvetica; */
   width: 70vw;
-  height: 80vh;
+  height: 85vh;
+  max-height: 160vw;
 }
 h1 {
-/* font-family: 'Exo 2', sans-serif; */
-font-family: 'Montserrat';
-margin: 0 auto;
-padding-top: 4vw;
-font-weight: 300;
-font-size: 8vw;
-line-height: 8.3vw;
+  /* font-family: 'Exo 2', sans-serif; */
+  font-family: 'Montserrat';
+  margin: 0 10vw;
+  padding-top: 4vw;
+  font-weight: 300;
+  font-size: 8vw;
+  line-height: 8.3vw;
+  letter-spacing: 2vw;
+  text-align: center;
 }
 h2 {
   font-size: 8vw;
@@ -46,14 +47,46 @@ h2 {
   letter-spacing: -1px;
   font-weight: bold;
   font-family: 'Exo';
+  
+}
+hr {
+  height: .1vh;
+  width: 40vw;
+  margin-bottom: 2vh;
+}
+.form-cont {
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  /* padding: ; */
+}
+.small-font {
+  margin: 1vh 0 .5vh 0;
+}
+.medium-font {
+  margin: 0;
+  font-size: 3vh;
+  margin-bottom: 8px;
+}
+input {
+  padding: 5px 0;
+  margin: -2vh 0;
+  border-radius: 3px;
+  min-width: 36vw;
 }
 .sub-button {
-  height: 50px;
+  height: 12vw;
   width: 100px;
-  background-color: red;
+  background-color: #a74e4e;
+  color: white;
+  font-family: 'Exo';
   border: 0;
+  border-radius: 10px;
   padding: 10px;
   font-size: 18px;
-  margin: 5px auto;
-  
+  margin:  5vh 0;
+  padding-bottom: 1vh;
 }

@@ -8,18 +8,19 @@ function App() {
       <div className="container">
         <h1>ENTER<br></br>TO WIN</h1>
         <h2>CALI OR BUST<br></br>SWEEPSTAKES</h2>
-        <p>7 day get away </p>
-        <form>
-          First name:<br></br>
+        <p className="small-font">7 day get away </p>
+        <hr></hr>
+        <form className="form-cont">
+          <p className="medium-font">First name:</p><br></br>
           <input type="text" name="firstname"></input><br></br>
-          Last name:<br></br>
+          <p className="medium-font">Last name:</p><br></br>
           <input type="text" name="lastname"></input><br></br>
-          Email:<br></br>
+          <p className="medium-font">Email:</p><br></br>
           <input type="email"></input>
-          
+          <button content="Sample Button" className="sub-button">SUBMIT</button>
         </form>
         {/* <button>SUBMIT</button> */}
-        <button content="Sample Button" className="sub-button">SUBMIT</button>
+        {/* <button content="Sample Button" className="sub-button">SUBMIT</button> */}
       </div>
     </div>
   )
